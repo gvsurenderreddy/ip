@@ -1,0 +1,10 @@
+AllCops:
+  Includes:
+    - ip.rb
+    - Rakefile
+    - config.ru
+  Excludes:
+    - log/**
+    - tmp/**
+    - pids/**
+    - coverage/**
