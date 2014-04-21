@@ -1,9 +1,9 @@
 AllCops:
-  Includes:
+  Include:
     - ip.rb
     - Rakefile
     - config.ru
-  Excludes:
+  Exclude:
     - log/**
     - tmp/**
     - pids/**
